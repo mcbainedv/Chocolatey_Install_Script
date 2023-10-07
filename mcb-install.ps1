@@ -37,6 +37,7 @@ choco install libreoffice-still
 choco install adobereader
 choco install pcloud
 choco install pdfxchangeeditor
+choco install protonmailbridge
 
 # Replacement for MS Project
 choco install ganttproject
