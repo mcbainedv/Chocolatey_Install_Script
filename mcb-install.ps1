@@ -37,7 +37,6 @@ choco install libreoffice-still
 choco install adobereader
 choco install pcloud
 choco install pdfxchangeeditor
-#choco install protonmailbridge
 
 # Replacement for MS Project
 choco install ganttproject
@@ -68,6 +67,7 @@ choco install nmap
 
 # Optional
 # choco install 4k-video-downloader
+# choco install protonmailbridge
 
 
 choco feature disable -n allowGlobalConfirmation
