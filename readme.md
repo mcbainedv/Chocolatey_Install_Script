@@ -13,16 +13,10 @@ See [github repo](https://github.com/chocolatey/choco)
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
 
-**Then download and run the choco script**
+**Then download and run the choco script ( save it @ a local directory)**
 
 ```
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/KristofferRisa/4cfd1ca3fec4e86e550c/raw/44c2d9c3fc02a5fdaa60cc098d0a559d4a33c1a1/choco-install-apps.ps1'))"
-```
-
-**Or an alternative choco script specifically design for dev environment**
-
-```
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/KristofferRisa/4cfd1ca3fec4e86e550c/raw/44c2d9c3fc02a5fdaa60cc098d0a559d4a33c1a1/dev-install.ps1'))"
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "C:\Users\C:\Users\Dejan\Documents\mcb-install.ps1'))"
 ```
 ### Documentation
 Please see the [wiki](https://github.com/chocolatey/choco/wiki)
