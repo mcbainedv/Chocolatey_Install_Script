@@ -1,8 +1,13 @@
 # Install script for most usefull windows software
 # made by mcb 
 # Created 07.10.2023
+# updated on 20.11.2023 - added comments for running script and docker-desktop app.
+# Run in powershell with admin privilages to start the script:
+# @powershell -NoProfile -ExecutionPolicy Bypass -Command "C:\path\to\script\mcb-install.ps1"
+#
 # in case it dos not run command below before running a script:
 # Set-ExecutionPolicy unrestricted
+
 
 ECHO Installing apps
 
@@ -21,12 +26,14 @@ choco install dbeaver
 choco install php
 choco install rufus
 
+
 #VM
 choco install vmware-workstation-player
 
 # DEVOPS
 choco install putty 
 choco install docker
+choco install docker-desktop
 
 # Andorid
 choco install scrcpy
