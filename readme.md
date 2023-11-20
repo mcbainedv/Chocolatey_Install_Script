@@ -16,7 +16,7 @@ See [github repo](https://github.com/chocolatey/choco)
 **Then download and run the choco script ( save it @ a local directory)**
 
 ```
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "C:\Users\C:\Users\Dejan\Documents\mcb-install.ps1'))"
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "C:\path\to\script\mcb-install.ps1))"
 ```
 ### Documentation
 Please see the [wiki](https://github.com/chocolatey/choco/wiki)
